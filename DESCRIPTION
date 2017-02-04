@@ -1,0 +1,10 @@
+Package: vava
+Title: some frequently-used functions for me
+Version: 1.0.0
+Authors@R: person("Nisus", "Liu", email = "liuhejunlj@163.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.2.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true 
+RoxygenNote: 6.0.0
