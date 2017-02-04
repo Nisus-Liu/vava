@@ -611,9 +611,9 @@ sortcol <- function(x, sortcols = c(1:length(x)), weight = NULL, decreasing = TR
 
 
 
-#====================================================================
 
-# ----日期索引：指定起止日期，返回年月或年季度信息---------
+
+# ----return date index---------------------------
 
 #' return date index
 #' 
@@ -699,9 +699,10 @@ cdout = function(wd = getwd()) {
 #' @param x object will be exported
 #' @param file what to store answers
 #' @param open whether to open \code{file} containing answers, \code{TRUE}:yes;\code{no}.
+#' @export ansout
 
 
-ans.out = function(x, file = ".ans.csv", open = TRUE) {
+ansout = function(x, file = ".ans.csv", open = TRUE) {
 
   write.csv(x = x, file = file)
   file.show(file)
